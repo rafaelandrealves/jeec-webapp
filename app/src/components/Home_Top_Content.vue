@@ -1,8 +1,8 @@
 <template>
     <div class="home-top-comp">
-        <div class="location">
-            Lisboa
-            <p>Instituto Superior Técnico</p>
+        <div class="date-location">
+            {{ date }}
+            <p>{{ location }}</p>
         </div>
             
         <div class="main-logo-container">
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <mouse-scroll id="mouse-scroll"/>
+        <scroll-down-arrow id="scroll-down-arrow"/>
     </div>
 </template>
 
@@ -32,6 +32,9 @@ export default {
   name: 'home-top-comp',
   data() {
     return {
+
+      date: "11 to 15 March",
+      location: "Instituto Superior Técnico",
       social_media_text: "Follow us on",
       center_image_link: "../../static/jeec_logo.svg",
       linkedin_icon_link: "../../static/linkedin.svg",
@@ -62,10 +65,10 @@ export default {
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-.location {
+.date-location {
     width: 100%;
     height: 42px;
     font-family: 'Roboto', sans-serif;
@@ -187,7 +190,7 @@ export default {
         font-size: 20px;
     }
 
-    #mouse-scroll {
+    #scroll-down-arrow {
         display: none;
     }
 }

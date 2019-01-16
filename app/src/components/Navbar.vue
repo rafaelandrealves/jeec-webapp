@@ -3,10 +3,46 @@
         <router-link router-link :to="{ name: 'Home' }">
           <img class="navbar-left-logo" :src="navbar_logo_link">
         </router-link>
+    <!--
+        <router-link router-link :to="{ name: 'Team' }">
+          <div class="navbar-title">{{ fourth_navbar_title }}</div>
+        </router-link>
+        <router-link router-link :to="{ name: 'Schedule' }">
+          <div class="navbar-title">{{ third_navbar_title }}</div>
+        </router-link>
+        <router-link router-link :to="{ name: 'Partners' }">
+          <div class="navbar-title">{{ second_navbar_title }}</div>
+        </router-link>
+        <router-link router-link :to="{ name: 'Speakers' }">
+          <div class="navbar-title">{{ first_navbar_title }}</div>
+        </router-link>
 
-        <div class="navbar-date">
-          11-15 March | <b>IST - Lisboa</b>
-        </div>
+      
+        <div id="menuToggle">
+          <input type="checkbox" />
+    
+          <span></span>
+          <span></span>
+          <span></span>
+    
+          <ul id="menu">
+            <router-link router-link :to="{ name: 'Home' }">
+             <li>Home</li>
+            </router-link>
+            <router-link router-link :to="{ name: 'Speakers' }">
+             <li>{{ first_navbar_title }}</li>
+            </router-link>
+            <router-link router-link :to="{ name: 'Partners' }">
+              <li>{{ second_navbar_title }}</li>
+            </router-link>
+            <router-link router-link :to="{ name: 'Schedule' }">
+             <li>{{ third_navbar_title }}</li>
+            </router-link>
+            <router-link router-link :to="{ name: 'Team' }">
+              <li>{{ fourth_navbar_title }}</li>
+            </router-link>
+          </ul>
+        </div>-->
     </div>
 </template>
 
@@ -15,6 +51,10 @@ export default {
   name: 'navbar',
   data() {
     return {
+      first_navbar_title: "Speakers",
+      second_navbar_title: "Partners",
+      third_navbar_title: "Schedule",
+      fourth_navbar_title: "Team",
       navbar_logo_link: "../../static/jeec_logo_small.svg"
     }
   },
@@ -50,26 +90,22 @@ export default {
   float: left;
 }
 
-.navbar-date {
-  float: right;
-  font-size: 22px;
-  margin-top: 30px;
-  margin-right: 40px;
-  font-family: 'Roboto';
-}
-
 .navbar-title {
   float: right;
-  margin-top: 26px;
+  margin-top: 28px;
   margin-right: 5vw;
   color: black;
-  font-size: 22px;
-  font-family: 'Roboto';
-}
+  font-size: 20px;
+  font-family: 'Lato';
 
-.navbar-title:hover {
-  font-weight: bold;
-}
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  }
+
+.navbar-title:hover { color:rgb(55, 121, 184); }
 
 a:hover {
   cursor: pointer;
@@ -224,12 +260,5 @@ a:hover
   #menuToggle {
     display: block;
   }
-
-  .navbar-date {
-    font-size: 18px;
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-  
 }
 </style>
