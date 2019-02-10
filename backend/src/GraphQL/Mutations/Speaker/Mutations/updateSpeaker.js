@@ -11,10 +11,10 @@ exports.updateSpeaker = {
       type: new GraphQLNonNull(GraphQLString)
     },
     name: {
-      type: new GraphQLNonNull(GraphQLString)
+      type: GraphQLString
     },
     company: {
-      type: new GraphQLNonNull(GraphQLString)
+      type: GraphQLString
     }
   },
   resolve: async (root, args) => {
