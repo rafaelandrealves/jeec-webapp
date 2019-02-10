@@ -1,29 +1,27 @@
 {
-  "name": "graphqltest",
+  "name": "backend-Node.js_GraphQL_MongoDB",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Boiler plate for backend using Node.js, GraphQL and MongoDB.",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Marques/backend-Node.js_GraphQL_MongoDB.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "eslint": "^5.6.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "nodemon": "^1.18.4"
+  "bugs": {
+    "url": "https://github.com/Carlos-Marques/backend-Node.js_GraphQL_MongoDB/issues"
   },
+  "homepage": "https://github.com/Carlos-Marques/backend-Node.js_GraphQL_MongoDB#readme",
   "dependencies": {
-    "apollo-server-express": "1.0.5",
-    "bcrypt": "^3.0.1",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "graphql": "^14.0.2",
-    "graphql-tools": "^4.0.0",
-    "mongoose": "^5.2.15"
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "mongoose": "^5.4.9"
   }
 }
