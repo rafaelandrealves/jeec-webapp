@@ -189,9 +189,12 @@ export default {
     .date-location {
         font-size: 20px;
     }
+<<<<<<< HEAD
 
     #scroll-down-arrow {
         display: none;
     }
+=======
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 </style>

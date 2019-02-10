@@ -103,6 +103,7 @@ export default {
     color: #007fb8;
 }
 
+<<<<<<< HEAD
 .icons-flex {
   display: flex;
   justify-content: space-between;
@@ -139,6 +140,8 @@ export default {
   margin-top: 30px;
 }
 
+=======
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 
 /* On screens that are 992px wide or less*/
 @media only screen and (max-width: 1400px) {
@@ -146,6 +149,7 @@ export default {
       width: 50%;
       margin-bottom: 30px;
   }
+<<<<<<< HEAD
 
   .audience-container {
     margin-left: 40px;
@@ -164,6 +168,8 @@ export default {
   .icon-text , .icon-company {
       font-size: 20px;
   }
+=======
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 
 /* On screens that are 600px wide*/
@@ -173,6 +179,7 @@ export default {
     padding-bottom: 60px;
     text-align: center;
   }
+<<<<<<< HEAD
 
   
   .audience-container {
@@ -203,5 +210,7 @@ export default {
       font-size: 17px;
       margin-top: 10px;
   }
+=======
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 </style>

@@ -16,7 +16,11 @@
                     <div class="contact-email">
                     <i class="ion-ios-email-outline"></i>
                     <h3>Email</h3>
+<<<<<<< HEAD
                     <p><a href="mailto:info@example.com">contacto@jeec.ist</a></p>
+=======
+                    <p><a href="mailto:contacto@jeec.ist">contacto@jeec.ist</a></p>
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
                     </div>
                 </div>
 
@@ -35,7 +39,14 @@
 
         <div class="bottom-bar">
             <div id="copyright">
+<<<<<<< HEAD
                 Copyright © 2018 - Jornadas de Engenharia Eletrotécnica e de Computadores do Instituto Superior Técnico
+=======
+                Copyright © 2019 - Jornadas de Engenharia Eletrotécnica e de Computadores do Instituto Superior Técnico
+            </div>
+            <div id="source-code">
+                Code hosted on <a href="https://github.com/NEECIST/jeec19-webapp" target="_blank">Github</a>
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
             </div>
         </div>
 
@@ -57,11 +68,19 @@
 }
 
 .bottom-bar {
+<<<<<<< HEAD
   margin-top: 25px;
   width: 100%;
   height: 30px;
   background-color: rgb(91, 170, 223);
   color: white;
+=======
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   position: relative;
   overflow: hidden;
   text-align: left;
@@ -69,6 +88,7 @@
 }
 
 #copyright {
+<<<<<<< HEAD
   font-size: 13px;
   font-family: 'Roboto', sans-serif;
   margin-top: 9px;
@@ -96,6 +116,27 @@
       padding-left: 10px;
       padding-right: 10px;
   }
+=======
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 9px;
+  font-size: 13px;
+  float: left;
+  font-family: 'Lato', sans-serif;
+}
+
+#source-code {
+  float: right;
+  font-family: 'Lato', sans-serif;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 9px;
+  font-size: 13px;
+}
+
+address {
+    font-style: normal;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 
 .flexbox-imgs {
@@ -108,7 +149,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+<<<<<<< HEAD
     margin-top: 50px;
+=======
+    margin-top: 20px;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 .flexbox-imgs img {
       justify-content: center;
@@ -141,6 +186,26 @@
       max-height: 60px;
       margin: 3px 5px;
   }
+<<<<<<< HEAD
+=======
+
+  .copyright {
+      text-align: center;
+      font-size: 8px;
+      width: 80%;
+      padding-left: 0px;
+      padding-bottom: 0px;
+  }
+
+  .source-code {
+      text-align: center;
+  }
+
+  .bottom-bar {
+      text-align: center;
+      height: 50px;
+  }
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 
 .section-with-bg {
@@ -148,7 +213,11 @@
 }
 
 #contact .contact-info {
+<<<<<<< HEAD
   margin-bottom: 20px;
+=======
+  margin-bottom: 10px;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   text-align: center;
 }
 
@@ -190,7 +259,11 @@
 #contact .contact-phone,
 #contact .contact-email {
   font-size: 18px;
+<<<<<<< HEAD
   margin-bottom: 20px;
+=======
+  margin-bottom: 10px;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 
 @media screen and (max-width: 560px) {

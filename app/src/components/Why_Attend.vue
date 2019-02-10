@@ -12,9 +12,13 @@
                     <div class="reason-to-come" v-for="icon in group.icons" :key="icon.link">
                         <div><img class="icon" :src="icon.link"></div>
                         
+<<<<<<< HEAD
                         <div class="icon-text-container">
                             <div class="icon-text">{{ icon.description }}</div>
                         </div>
+=======
+                        <div class="icon-text">{{ icon.description }}</div>
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
                     </div>
                 </div>
             </div>
@@ -79,6 +83,11 @@ export default {
 }
 
 .target-audience-title {
+<<<<<<< HEAD
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   font-family: 'Karla';
   font-size: 30px;
   font-weight: 600;
@@ -89,6 +98,13 @@ export default {
 
 .icons-flex {
   display: flex;
+<<<<<<< HEAD
+=======
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -116,17 +132,27 @@ export default {
   display: inline-block;
 }
 
+<<<<<<< HEAD
 .icon-text-container {
     padding: 10px;
 }
 
 .icon-text {
+=======
+.icon-text {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   display: inline-block;
   font-family: 'Lato';
   font-size: 20px;
   line-height: 1.47;
   color: #000000;
   margin-top: 20px;
+<<<<<<< HEAD
+=======
+  padding: 10px;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 }
 
 hr {
@@ -139,12 +165,17 @@ hr {
 }
 
 
+<<<<<<< HEAD
 /* On screens that are 992px wide or less*/
 @media only screen and (max-width: 1400px) {
   .reason-to-come {
       width: 50%;
   }
 
+=======
+/* On screens that are 1400px wide or less*/
+@media (max-width: 1400px) {
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   .audience-container {
     margin-left: 40px;
     margin-right: 40px;
@@ -168,11 +199,17 @@ hr {
 }
 
 /* On screens that are 600px wide*/
+<<<<<<< HEAD
 @media screen and (max-width: 700px) {
   .why-attend-comp {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
+=======
+@media (max-width: 700px) {
+  .reason-to-come {
+      width: 100%;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   }
 
   .target-audience-title {
@@ -187,9 +224,16 @@ hr {
 }
 
   .icons-flex {
+<<<<<<< HEAD
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+=======
+      -webkit-flex-direction: column;
+	  -moz-flex-direction: column;
+	  -ms-flex-direction: column;	
+	  flex-direction: column;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
       padding-top: 50px;
       padding-left: 10px;
       padding-right: 10px;

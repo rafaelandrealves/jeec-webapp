@@ -3,6 +3,7 @@
         <router-link router-link :to="{ name: 'Home' }">
           <img class="navbar-left-logo" :src="navbar_logo_link">
         </router-link>
+<<<<<<< HEAD
     <!--
         <router-link router-link :to="{ name: 'Team' }">
           <div class="navbar-title">{{ fourth_navbar_title }}</div>
@@ -18,6 +19,30 @@
         </router-link>
 
       
+=======
+
+        <!--
+        <router-link class="navbar-title" router-link :to="{ name: 'Partners' }">
+          Partners
+        </router-link>-->
+    
+        <router-link router-link :to="{ name: 'Team' }">
+          <div class="navbar-title">Team</div>
+        </router-link>
+        
+        <!--
+        <router-link router-link :to="{ name: 'Schedule' }">
+          <div class="navbar-title">{{ third_navbar_title }}</div>
+        </router-link>
+        <router-link router-link :to="{ name: 'Partners' }">
+          <div class="navbar-title">{{ second_navbar_title }}</div>
+        </router-link>
+        <router-link router-link :to="{ name: 'Speakers' }">
+          <div class="navbar-title">{{ first_navbar_title }}</div>
+        </router-link>-->
+
+      <!--
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
         <div id="menuToggle">
           <input type="checkbox" />
     
@@ -51,10 +76,13 @@ export default {
   name: 'navbar',
   data() {
     return {
+<<<<<<< HEAD
       first_navbar_title: "Speakers",
       second_navbar_title: "Partners",
       third_navbar_title: "Schedule",
       fourth_navbar_title: "Team",
+=======
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
       navbar_logo_link: "../../static/jeec_logo_small.svg"
     }
   },
@@ -90,8 +118,31 @@ export default {
   float: left;
 }
 
+.partners-button {
+height: 20px;
+text-align: center;
+width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  color: rgb(67, 154, 236);
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: 1px solid rgb(67, 154, 236);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.navbar a {
+  text-decoration: initial;
+}
+
 .navbar-title {
   float: right;
+<<<<<<< HEAD
   margin-top: 28px;
   margin-right: 5vw;
   color: black;
@@ -106,6 +157,22 @@ export default {
   }
 
 .navbar-title:hover { color:rgb(55, 121, 184); }
+=======
+  margin-top: 26px;
+  margin-right: 5vw;
+  color: black;
+  font-size: 24px;
+  font-family: 'Lato';
+
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+  }
+
+.navbar-title:hover { color:rgb(55, 121, 184); transform: scale(1.1); }
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 
 a:hover {
   cursor: pointer;
@@ -191,6 +258,7 @@ a:hover
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
+<<<<<<< HEAD
 }
 
 #menuToggle input:checked ~ span
@@ -230,6 +298,47 @@ a:hover
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
+=======
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 100%;
+  margin-left: -98vw;
+  padding: 50px;
+  padding-top: 50px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(0, -550px);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 #menu li
 {
   padding: 20px 0;
@@ -254,7 +363,12 @@ a:hover
   }
 
   .navbar-title {
+<<<<<<< HEAD
     display: none;
+=======
+    margin-top: 23px;
+    /*display: none;*/
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   }
 
   #menuToggle {

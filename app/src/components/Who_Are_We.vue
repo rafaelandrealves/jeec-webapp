@@ -36,11 +36,20 @@ export default {
   width: 100%;
   background-color: #ffffff;
   padding-top: 10px;
+<<<<<<< HEAD
   padding-bottom: 30px;
+=======
+  padding-bottom: 15px;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   text-align: center;
 }
 
 .who-are-we-text {
+<<<<<<< HEAD
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
   width: 75%;
   font-family: 'Lato';
   margin-top: 20px;

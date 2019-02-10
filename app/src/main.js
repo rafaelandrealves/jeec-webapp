@@ -17,7 +17,20 @@ import Meet_our_speakers from './components/Meet_our_speakers'
 import Scroll_Down_Arrow from './components/Scroll_Down_Arrow'
 import Component_Title from './components/Component_Title'
 
+<<<<<<< HEAD
 import Gold_Partners from './components/Gold_Partners'
+=======
+import Partner_Tier from './components/Partner_Tier'
+
+import Workshops from './components/Workshops'
+import Matchmaking from './components/Matchmaking'
+import Job_Fair from './components/Job_Fair'
+
+
+import Posts from './components/Posts'
+
+import Image_Center_Text from './components/Image_Center_Text'
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 
 Vue.config.productionTip = false
 
@@ -35,7 +48,19 @@ Vue.component('scroll-down-arrow', Scroll_Down_Arrow)
 
 Vue.component('component-title', Component_Title)
 
+<<<<<<< HEAD
 Vue.component('gold-partners', Gold_Partners)
+=======
+Vue.component('partner-tier', Partner_Tier)
+
+Vue.component('posts', Posts)
+
+Vue.component('workshops', Workshops)
+Vue.component('matchmaking', Matchmaking)
+Vue.component('job-fair', Job_Fair)
+
+Vue.component('image-center-text', Image_Center_Text)
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
 
 /* eslint-disable no-new */
 new Vue({

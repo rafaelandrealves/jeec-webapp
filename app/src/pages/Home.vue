@@ -16,11 +16,19 @@
 
         <who-are-we/>
 
+<<<<<<< HEAD
         
         <why-attend/>
 
         <!--<ouractivities/>-->
 
+=======
+
+        <why-attend/>
+
+        <!--<ouractivities/>-->
+
+>>>>>>> 52f4dde3dea4768a72d2b9f61092491e7c0ee79d
         <contacts/>
     </div>
 </template>
